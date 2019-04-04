@@ -1,0 +1,8 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'spring-cloud'
+
+include 'api-gateways', 'micro-service-user', 'micro-service-product', 'discovery-server'
